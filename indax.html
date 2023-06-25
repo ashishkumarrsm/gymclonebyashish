@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gym</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('img/bcimage.jpg');
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .header {
+            position: sticky;
+            top: 12px;
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            left: 2px;
+            top: 12px;
+        }
+
+        .left img {
+            width: 75px;
+            filter: invert(100%);
+            margin-left: 12px;
+            margin-top: -32px;
+
+        }
+
+        .left div {
+            text-align: center;
+            line-height: 10px;
+            font-size: 26px;
+            margin-left: 30px;
+        }
+
+        .mid {
+            /* border: 2px solid red; */
+            display: block;
+            width: 44%;
+            margin: 30px auto;
+        }
+
+        .navbar {
+            display: inline-block;
+
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 25px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 12px 12px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: gray;
+        }
+
+
+        .right {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            right: 2px;
+            top: 12px;
+        }
+
+        .btn {
+            padding: 12px;
+            margin: 12px;
+            color: rgb(250, 251, 255);
+            background-color: black;
+            border-radius: 34px;
+            cursor: pointer;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .btn:hover {
+            font-size: 0.9rem;
+            background-color: rgb(61, 57, 57);
+            color: snow;
+        }
+
+        .contaner {
+            border: 5px solid white;
+            margin: 102px 130px;
+            width: 33%;
+            border-radius: 50px;
+            padding: 50px 100px;
+
+        }
+
+        .form-group input {
+
+            text-align: center;
+            display: block;
+            width: 420px;
+            padding: 2px;
+            border: 2px solid black;
+            margin: 10px auto;
+            font-size: 20px;
+            border-radius: 20px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .contaner h1 {
+            text-align: center;
+        }
+
+        .contaner button {
+            display: block;
+            width: 70%;
+            margin: 30px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left"><img src="img/logo.png" alt="logo of company">
+            <div>A+ Fitness</div>
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#"> Fitness Calculater</a></li>
+                <li><a href="#"> Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <button class="btn">Call Us </button>
+            <button class="btn">E-mail Us</button>
+        </div>
+    </header>
+    <main>
+        <div class="contaner">
+            <h1>Join The best Gym of Delhi now</h1>
+            <form action="#">
+                <div class="form-group">
+                    <input type="text " name="" placeholder="Enter Your Fname">
+                </div>
+                <div class="form-group">
+                    <input type="text " name="" placeholder="Enter Your Lname">
+                </div>
+                <div class="form-group">
+                    <input type="text " name="" placeholder="Enter Your Age">
+                </div>
+                <div class="form-group">
+                    <input type="text " name="" placeholder="Enter Your Gender">
+                </div>
+                <div class="form-group">
+                    <input type="text " name="" placeholder="Enter Your Locality">
+                </div>
+                <div class="form-group">
+                    <input type="text " name="" placeholder="Enter Your Phone no.">
+                </div>
+                <div class="form-group">
+                    <input type="text " name="" placeholder="Enter Your E-mail">
+                </div>
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
